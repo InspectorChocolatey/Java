@@ -12,3 +12,6 @@ javadoc com\nicholasjacquet\payroll*.java
 
 # Start a Java program from a jar file:
 java -jar FractalExplorer.jar
+
+# Display a member inventory from a .class Java file in command line:
+javap C:\javaclasses\com\nicholasjacquet\util\Console.class
