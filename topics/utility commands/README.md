@@ -15,3 +15,22 @@ java -jar FractalExplorer.jar
 
 # Display a member inventory from a .class Java file in command line:
 javap C:\javaclasses\com\nicholasjacquet\util\Console.class
+
+
+# Make a manifest.txt file so that I can make a jar:
+echo "main-class: Craps" > manifest.txt
+
+# put a .class into a jar:
+jar cfvm SayHello.jar Manifest.txt SayHello.class 
+
+# execute a jar:
+java -jar SayHello.jar
+
+# see what is inside of a jar:
+jar tf SayHello.jar
+
+# add the txt directory (which is right along side my jar) + all of childitems of /txt into my jar:
+jar uf SayHello.jar txt 
+
+# extract all items inside a jar:
+jar xf SayHello.jar
