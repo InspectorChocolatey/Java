@@ -9,6 +9,8 @@
 # topic:  Embedded Derby Database In JAVA Application - Tutorial 
 # url:    https://www.youtube.com/watch?v=9GEW6kv4dKU&t=429s
 
+# topic:  java project classpath 
+# url:    https://en.wikipedia.org/wiki/Classpath_(Java)
 
 # topic:  Derby Embedded mode setup (<- This looks like what I want)
 # url:    http://www.vogella.com/tutorials/ApacheDerby/article.html
