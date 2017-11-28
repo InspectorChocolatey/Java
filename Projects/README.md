@@ -2,3 +2,9 @@
 # [ ] Java Swing references
 # [ ] Netbeans references
 # [ ] derby database setup
+
+# topic: JAVA Web App w/ Embedded Derby Database - Tutorial 01 
+# url:   https://www.youtube.com/watch?v=WKQeuTxXzKI
+
+# topic:  Embedded Derby Database In JAVA Application - Tutorial 
+# url:    https://www.youtube.com/watch?v=9GEW6kv4dKU&t=429s
