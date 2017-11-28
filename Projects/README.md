@@ -8,3 +8,7 @@
 
 # topic:  Embedded Derby Database In JAVA Application - Tutorial 
 # url:    https://www.youtube.com/watch?v=9GEW6kv4dKU&t=429s
+
+
+# topic:  Derby Server Setup (<- This looks very good)
+# url:    http://www.vogella.com/tutorials/ApacheDerby/article.html
