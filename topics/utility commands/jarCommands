@@ -1,0 +1,26 @@
+echo main-class: Craps >manifest.txt
+jar cvfm Craps.jar manifest.txt *.class
+
+echo Main-Class: MyTest >manifest.txt
+jar cvfm MyTest.jar manifest.txt *.class
+
+jar cvfe Craps.jar Craps *.class
+jar cvfe MyTest.jar MyTest *.class
+
+echo "main-class: MyTest" > manifest.txt
+jar cfvm MyTest.jar Manifest.txt MyTest.class 
+
+# put a .class into a jar
+jar cfvm SayHello.jar Manifest.txt SayHello.class 
+
+# execute a jar
+java -jar SayHello.jar
+
+# see what is inside of a jar
+jar tf SayHello.jar
+
+# add the txt directory (which is right along side my jar) + all of childitems of /txt into my jar
+jar uf SayHello.jar txt 
+
+# extract all items inside a jar
+jar xf SayHello.jar
