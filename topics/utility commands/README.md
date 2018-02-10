@@ -1,3 +1,6 @@
+# Show warning messages when attempting to compile:
+javac SketchPanel.java -Xlint:deprecation
+
 # Create a .class file from a .java file:
 javac C:\javaclasses\nicholasjacquet\util\Console.java
 
