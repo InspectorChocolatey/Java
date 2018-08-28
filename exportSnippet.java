@@ -9,7 +9,7 @@
 	        csv.write("\n");
 	        for (int i = 0; i < model.getRowCount(); i++) {
 	            for (int j = 0; j < model.getColumnCount(); j++) {
-	                csv.write(model.getValueAt(i, j).toString() + ",");
+	                csv.write(model.getValueAt(i, j).toString() + ","); //Throws java.lang.NullPointerException
 	            }
 	            csv.write("\n");
 	        }
