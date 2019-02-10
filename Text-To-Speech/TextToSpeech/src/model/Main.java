@@ -71,7 +71,7 @@ public class Main {
 		);
 		*/
 		
-		readLinesFromFile("/home/nicholas/Desktop/java-projects/text-files/js-page7.txt");
+		readLinesFromFile(tts, "/home/nicholas/Desktop/java-projects/text-files/js-page7.txt");
 		
 		/*
 		tts.setVoice("cmu-slt-hsmm");
@@ -82,7 +82,7 @@ public class Main {
 	}
 
 	
-	public static void readLinesFromFile(String filepath) {
+	public static void readLinesFromFile(TextToSpeech tts, String filepath) {
 		List<String> lines = readFileInList(filepath);
 		for (String line : lines) {
 			System.out.println(line);
